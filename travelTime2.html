@@ -1,0 +1,19 @@
+function travelTime(bartStops) {
+  
+  if (bartStops == 1 || bartStops == 2) {
+    return "3-5 minutes";
+  }
+   
+   else if (bartStops == 3 || bartStops == 4 || bartStops == 5) {
+    return "8-15 minutes";
+  }
+
+    else if (bartStops == 6) {
+    return "20 minutes";
+  }
+
+    else {
+    return "Too far!";
+  }
+}
+travelTime(4);
